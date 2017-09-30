@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="me.huongdang.digitaldream">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -19,9 +19,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".BudgetPage" />
-        <activity android:name=".SetBudgets"></activity>
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:name=".SetBudgets" />
 
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".AvatarSettings"
+            android:label="@string/title_activity_avatar_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".goals_page"
+            android:label="@string/title_activity_goals_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
