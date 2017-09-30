@@ -7,4 +7,5 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="budget_name">Budget</string>
+    <string name="facebook_app_id">Facebook App ID</string>
 </resources>
