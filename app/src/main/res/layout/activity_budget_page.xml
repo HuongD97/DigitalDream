@@ -55,11 +55,11 @@
     </TabHost>
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="316dp"
-        android:layout_height="310dp"
-        app:srcCompat="@mipmap/Chart_Place_Holder"
-        tools:layout_editor_absoluteY="58dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:id="@+id/imageView5"
+        android:layout_width="338dp"
+        android:layout_height="338dp"
+        app:srcCompat="@mipmap/chart_sample"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="30dp" />
+
 </android.support.constraint.ConstraintLayout>
