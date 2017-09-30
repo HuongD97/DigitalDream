@@ -2,4 +2,9 @@
     <string name="app_name">Digital Dream</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="title_activity_main_test">MainActivityTest</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="budget_name">Budget</string>
 </resources>
