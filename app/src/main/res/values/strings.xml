@@ -18,4 +18,5 @@
     <string name="cost">Enter cost of your goal</string>
     <string name="next">Next</string>
     <string name="date_picker">Set a date for completing your goal!</string>
+    <string name="gotoGoals">SET A GOAL</string>
 </resources>
