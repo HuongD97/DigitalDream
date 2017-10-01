@@ -10,4 +10,10 @@
     <string name="facebook_app_id">Facebook App ID</string>
     <string name="title_activity_avatar_settings">AvatarSettings</string>
     <string name="title_activity_goals_page">goals_page</string>
+    <string name="goal_name">Enter your goal\'s name</string>
+    <string name="button_save">Save</string>
+    <string name="link">Link to your goal (Optional)</string>
+    <string name="cost">Enter cost of your goal</string>
+    <string name="next">Next</string>
+    <string name="date_picker">Set a date for completing your goal!</string>
 </resources>

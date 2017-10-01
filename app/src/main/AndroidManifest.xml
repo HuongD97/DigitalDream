@@ -29,10 +29,8 @@
             android:name=".AvatarSettings"
             android:label="@string/title_activity_avatar_settings"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".goals_page"
-            android:label="@string/title_activity_goals_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activity_goals_next" />
+        <activity android:name=".activity_goals_first"></activity>
     </application>
 
 </manifest>
