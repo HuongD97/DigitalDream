@@ -11,13 +11,16 @@ public class MainActivity extends AppCompatActivity {
 
     private Button launchBudgetsActivity;
     private Button launchGoalsActivity;
+    private Button launchAvatarActivity;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         launchBudgetsActivity = (Button) findViewById(R.id.button5);
-        launchGoalsActivity = (Button) findViewById(R.id.button8);
+        launchGoalsActivity = (Button) findViewById(R.id.button9);
+        launchAvatarActivity = (Button) findViewById(R.id.button8);
 
         launchBudgetsActivity.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +36,13 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+        launchAvatarActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchAvatarActivity();
+            }
+        });
     }
 
     private void launchBudgetsActivity() {
@@ -42,6 +52,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchGoalsActivity() {
         Intent intent = new Intent(this, activity_goals_first.class);
+        startActivity(intent);
+    }
+
+    private void launchAvatarActivity() {
+        Intent intent = new Intent(this, AvatarSettings.class);
         startActivity(intent);
     }
 }

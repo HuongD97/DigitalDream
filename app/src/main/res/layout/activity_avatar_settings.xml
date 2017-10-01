@@ -22,14 +22,24 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_avatar_settings"
-        android:id="@+id/include" />
+        android:id="@+id/include"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_toStartOf="@+id/button5"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
 
     <Button
         android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
         android:layout_gravity="bottom|left"
-        android:text="Button"
+        android:layout_marginTop="39dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Save Avatar"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="top|right" />
 
@@ -67,12 +77,19 @@
         android:ems="8"
         android:inputType="textPersonName"
         android:text="Choose Your Big Cat"
-        android:layout_marginLeft="34dp"
-        android:layout_marginStart="34dp"
+        android:layout_marginTop="105dp"
         android:layout_below="@+id/appBarLayout"
-        android:layout_toRightOf="@+id/button5"
-        android:layout_toEndOf="@+id/button5"
-        android:layout_marginTop="101dp" />
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Play"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true" />
 
 
     <!--</android.support.design.widget.CoordinatorLayout>-->

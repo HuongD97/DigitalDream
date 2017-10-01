@@ -19,4 +19,5 @@
     <string name="next">Next</string>
     <string name="date_picker">Set a date for completing your goal!</string>
     <string name="gotoGoals">SET A GOAL</string>
+    <string name="goToAvatar">SET AVATAR</string>
 </resources>
