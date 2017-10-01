@@ -6,14 +6,13 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
 
-public class AvatarSettings extends AppCompatActivity {
+public class avatarGameScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_avatar_settings);
+        setContentView(R.layout.activity_avatar_game_screen);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -25,19 +24,6 @@ public class AvatarSettings extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
-        final Button button = (Button) findViewById(R.id.button5);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                System.out.println("ohai");
-            }
-        });
-
-
-
     }
-
-
-
 
 }
