@@ -32,6 +32,7 @@
         android:layout_gravity="bottom|center_horizontal"
         app:layout_anchor="@+id/include2"
         app:layout_anchorGravity="center_vertical|center_horizontal"
-        app:srcCompat="@mipmap/lion"/>
+        app:srcCompat="@drawable/lion"
+        />
 
 </android.support.design.widget.CoordinatorLayout>
