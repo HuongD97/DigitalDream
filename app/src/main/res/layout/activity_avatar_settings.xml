@@ -71,16 +71,19 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+    <!--
     <EditText
-        android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/com_facebook_button_background_color_focused"
         android:ems="8"
-        android:inputType="textPersonName"
+        android:inputType="none"
         android:text="Choose Your Big Cat"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
         android:layout_above="@+id/imageView7"
         android:layout_centerHorizontal="true" />
-
+    -->
     <Button
         android:id="@+id/button10"
         style="@style/Widget.AppCompat.Button.Colored"
