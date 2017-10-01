@@ -14,4 +14,16 @@
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="30dp" />
 
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="154dp"
+        android:layout_height="62dp"
+        android:indeterminate="true"
+        android:progress="@android:integer/status_bar_notification_info_maxnum"
+        android:progressTint="@color/colorAccent"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="407dp" />
+
 </android.support.constraint.ConstraintLayout>
