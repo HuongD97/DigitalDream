@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/gotoGoals"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/imageView"
+        android:layout_marginTop="43dp"
+        android:layout_alignTop="@+id/button5"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/launch_button"
-        android:layout_marginBottom="114dp"
+        android:layout_marginBottom="112dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 

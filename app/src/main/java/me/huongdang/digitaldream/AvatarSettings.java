@@ -40,14 +40,15 @@ public class AvatarSettings extends AppCompatActivity {
 
     }
 
+
     private void returnHome() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
     private void launchGame() {
-        Intent intentGame = new Intent(this, avatarGameScreen.class);
-        startActivity(intentGame);
+        Intent intent = new Intent(this, avatarGameScreen.class);
+        startActivity(intent);
         finish();
     }
 }

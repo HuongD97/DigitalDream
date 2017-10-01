@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button launchBudgetsActivity;
     private Button launchGoalsActivity;
     private Button launchAvatarActivity;
+    // private Button launchGameActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
