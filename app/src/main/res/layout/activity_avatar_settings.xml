@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="me.huongdang.digitaldream.AvatarSettings">
+    tools:context="me.huongdang.digitaldream.AvatarSettings"
+    android:background="@mipmap/background_wood">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -34,14 +35,14 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
         android:layout_gravity="bottom|left"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="19dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="Save Avatar"
         app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="top|right" />
+        app:layout_anchorGravity="top|right"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -77,8 +78,7 @@
         android:ems="8"
         android:inputType="textPersonName"
         android:text="Choose Your Big Cat"
-        android:layout_marginTop="105dp"
-        android:layout_below="@+id/appBarLayout"
+        android:layout_above="@+id/imageView7"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -88,6 +88,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="Play"
+        android:textSize="30sp"
+        android:typeface="sans"
         android:layout_below="@+id/button5"
         android:layout_centerHorizontal="true" />
 
