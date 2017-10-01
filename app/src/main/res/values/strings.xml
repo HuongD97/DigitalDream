@@ -10,4 +10,6 @@
     <string name="facebook_app_id">Facebook App ID</string>
     <string name="title_activity_avatar_settings">AvatarSettings</string>
     <string name="title_activity_goals_page">goals_page</string>
+    <string name="launch_button">Start Budgeting!</string>
+    <string name="returnHomeButton">Main</string>
 </resources>

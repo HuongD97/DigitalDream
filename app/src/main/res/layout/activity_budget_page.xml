@@ -6,54 +6,6 @@
     android:layout_height="match_parent"
     tools:context="me.huongdang.digitaldream.BudgetPage">
 
-    <TabHost
-        android:layout_width="378dp"
-        android:layout_height="59dp"
-        tools:layout_editor_absoluteY="453dp"
-        tools:layout_editor_absoluteX="4dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TabWidget
-                android:id="@android:id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <FrameLayout
-                android:id="@android:id/tabcontent"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:id="@+id/tab1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/tab2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/tab3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-            </FrameLayout>
-        </LinearLayout>
-    </TabHost>
-
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="338dp"

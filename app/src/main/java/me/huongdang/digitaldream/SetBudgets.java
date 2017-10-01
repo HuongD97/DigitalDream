@@ -10,13 +10,22 @@ import android.view.View;
 // import android.widget.TextView;
 
 
-public class SetBudgets extends AppCompatActivity /*extends ActionBarActivity implements View.OnClickListener*/ {
+public class SetBudgets extends AppCompatActivity {
 
+    private Button goBackHome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_set_budgets);
 
+        goBackHome = (Button) findViewById(R.id.button6);
+        goBackHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+        /*
         Button more = (Button) findViewById(R.id.more);
         more.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -34,10 +43,12 @@ public class SetBudgets extends AppCompatActivity /*extends ActionBarActivity im
                         // here you can add functions
                     }
                 });
-                */
+
                 alertDialog.show();  //<-- See This!
             }
 
         });
+        */
     }
+
 }
